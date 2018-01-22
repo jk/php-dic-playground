@@ -1,0 +1,27 @@
+{
+  "name": "jk/php-di-001",
+  "description": "Dependency Injection Container Example with php-di/php-di",
+  "type": "project",
+  "require": {
+    "php": "^7.1",
+    "php-di/php-di": "^5.4",
+    "ocramius/proxy-manager": "~1.0|~2.0",
+    "doctrine/annotations": "^1.6",
+    "doctrine/cache": "^1.7",
+    "psr/log": "^1.0",
+    "monolog/monolog": "^1.23"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jens Kohl",
+      "email": "jens.kohl@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "JK\\DicExample\\PhpDi\\": "src"
+    }
+  }
+}
